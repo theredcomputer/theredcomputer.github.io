@@ -40,8 +40,7 @@
     /*border-top: 0em solid #0b3c5d;
     border-bottom: 0em solid #0b3c5d;*/
     margin-top: 2em;
-    padding-top: 1em;
-    padding-bottom: 0px;
+    padding: 1em 1em 0em 1em;
 }
 
 @media (max-width: 800px) {
