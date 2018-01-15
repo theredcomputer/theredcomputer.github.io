@@ -39,20 +39,21 @@
     border: 1em solid #0b0b0b;
     /*border-top: 0em solid #0b3c5d;
     border-bottom: 0em solid #0b3c5d;*/
-    margin-top: 2em;
     padding: 1em 1em 0em 1em;
 }
 
 @media (max-width: 800px) {
     html, body {height: auto;}
-    .main {margin-bottom: 2em;}
-    body {padding: 2em;}
+    .main {margin-bottom: 1em;}
+    body {padding: 1em; border: 0em;}
+    .footer {margin-top: 1em;}
 }
 
 @media (min-width: 800px) {
     html, body {height: 100%;}
     .main {margin-right: 2em;}
-    body {padding: 6em;}
+    body {padding: 6em; border: 1em solid #0b0b0b;}
+    .footer {margin-top: 2em;}
 }
 
 @media all and (min-width: 600px) {
@@ -67,7 +68,6 @@
 }
 
 body {
-    border: 1em solid #0b0b0b;
     color: #d9b310;
     background: url("background.jpg") no-repeat center;
     background-size: cover;
