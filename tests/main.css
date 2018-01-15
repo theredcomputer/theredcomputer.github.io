@@ -1,3 +1,11 @@
+/*
+    Prussian Blue: #0B3C5D
+    Sky Blue: #328CC1
+    Gold Leaf: #D9B310
+    Ivory Black: #1D2731
+    Paper #F4F4F4
+*/
+
 .wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -10,16 +18,15 @@
 }
 
 .main {
-    text-color: grey;
+    background: rgba(10,10,10,0.65);
+    border: 1em solid #0b0b0b;
     text-align: left;
-    background: none;
-    padding-bottom: 1em;
-    padding-right: 2em;
+    padding: 1em;
 }
 
 .nav-right {
-    background: none;
-    border: 1em outset #2115c1;
+    background: rgba(10,10,10,0.65);
+    border: 1em solid #0b0b0b;
     /*border-left: 3px double grey;
     border-right: 3px double grey;
     border-top: 3px double grey;
@@ -28,17 +35,23 @@
 }
 
 .footer {
-    background: none;
-    border-top: 1em solid #130c6b;
-    border-bottom: 1em solid #130c6b;
-    margin-top: 4em;
+    background: rgba(10,10,10,0.65);
+    border: 1em solid #0b0b0b;
+    /*border-top: 0em solid #0b3c5d;
+    border-bottom: 0em solid #0b3c5d;*/
+    margin-top: 2em;
     padding-top: 1em;
     padding-bottom: 0px;
 }
 
-@media all and (max-width: 800px) {
-    /*.nav-right {border-top: 3px double grey;}*/
-    .footer{border-top: none; padding-top: 0px;}
+@media (max-width: 800px) {
+    html, body {height: auto;}
+    .main {margin-bottom: 2em;}
+}
+
+@media (min-width: 800px) {
+    html, body {height: 100%;}
+    .main {margin-right: 2em;}
 }
 
 @media all and (min-width: 600px) {
@@ -49,32 +62,36 @@
 @media all and (min-width: 800px) {
     .main { flex: 10 0px; }
     .nav-right {order: 3;}
-     
     .footer {order: 4;}
 }
 
 body {
-    padding: 4em;
-    border: 1em inset #ff000f;
+    padding: 6em;
+    border: 1em solid #0b0b0b;
+    color: #d9b310;
+    background: url("background.jpg") no-repeat center;
+    background-size: cover;
 }
 
+
 a:link {
-    color: #251e7f;
+    color: #d9b310;
 }
 
 a:visited {
-    color: #251e7f;
+    color: #d9b310;
 }
 
 a:hover {
-    color: lightgrey;
+    color: #f4f4f4;
 }
 
 a:active {
-    color: lightgrey;
+    color: #f4f4f4;
 }
 
 .nav-li {
-    margin: 1.5em 0;
-    font-size: large;
-}
+    margin: 1em 0;
+    font-size: medium;
+} 
+
