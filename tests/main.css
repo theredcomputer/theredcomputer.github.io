@@ -47,11 +47,13 @@
 @media (max-width: 800px) {
     html, body {height: auto;}
     .main {margin-bottom: 2em;}
+    body {padding: 2em;}
 }
 
 @media (min-width: 800px) {
     html, body {height: 100%;}
     .main {margin-right: 2em;}
+    body {padding: 6em;}
 }
 
 @media all and (min-width: 600px) {
@@ -66,7 +68,6 @@
 }
 
 body {
-    padding: 6em;
     border: 1em solid #0b0b0b;
     color: #d9b310;
     background: url("background.jpg") no-repeat center;
