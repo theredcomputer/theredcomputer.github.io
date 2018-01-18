@@ -31,7 +31,7 @@
     border-right: 3px double grey;
     border-top: 3px double grey;
     align-self: center;*/
-    align-self: flex-start;
+    align-self: stretch;
 }
 
 .footer {
@@ -47,6 +47,7 @@
     .main {margin-bottom: 1em;}
     body {padding: 1em; border: 0em;}
     .footer {margin-top: 1em;}
+    .maincontent {max-width: unset;}
 }
 
 @media (min-width: 800px) {
@@ -54,6 +55,7 @@
     .main {margin-right: 2em;}
     body {padding: 6em; border: 1em solid #0b0b0b;}
     .footer {margin-top: 2em;}
+    .maincontent {max-width: 600px;}
 }
 
 @media all and (min-width: 600px) {
@@ -62,7 +64,7 @@
 }
 
 @media all and (min-width: 800px) {
-    .main { flex: 10 0px; }
+    .main { flex: 10 0px;}
     .nav-right {order: 3;}
     .footer {order: 4;}
 }
