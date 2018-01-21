@@ -18,14 +18,14 @@
 }
 
 .main {
-    background: rgba(10,10,10,0.85);
+    background: rgba(10,10,10,0.95);
     border: 1em solid #0b0b0b;
     text-align: left;
     padding: 1em;
 }
 
 .nav-right {
-    background: rgba(10,10,10,0.85);
+    background: rgba(10,10,10,0.95);
     border: 1em solid #0b0b0b;
     /*border-left: 3px double grey;
     border-right: 3px double grey;
@@ -35,7 +35,7 @@
 }
 
 .footer {
-    background: rgba(10,10,10,0.85);
+    background: rgba(10,10,10,0.95);
     border: 1em solid #0b0b0b;
     /*border-top: 0em solid #0b3c5d;
     border-bottom: 0em solid #0b3c5d;*/
