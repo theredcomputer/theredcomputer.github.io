@@ -27,11 +27,9 @@
 .nav-right {
     background: rgba(10,10,10,0.95);
     border: 1em solid #0b0b0b;
-    /*border-left: 3px double grey;
-    border-right: 3px double grey;
-    border-top: 3px double grey;
-    align-self: center;*/
-    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -75,6 +73,9 @@ body {
     background-size: cover;
 }
 
+.url:link {
+    text-decoration: underline;
+}
 
 a:link {
     color: #d9b310;
@@ -85,7 +86,9 @@ a:visited {
 }
 
 a:hover {
-    color: #f4f4f4;
+    color: #0b0b0b;
+    background-color: #d9b310;
+    text-decoration: none;
 }
 
 a:active {
@@ -97,3 +100,18 @@ a:active {
     font-size: medium;
 } 
 
+.pub-heading {
+    margin: 0 0;
+}
+
+.pub {
+    margin: 1em 0;
+}
+
+.pub-title {
+    font-weight: bold;
+}
+
+.list-item {
+    padding-left: 15px;
+}
