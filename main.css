@@ -41,21 +41,21 @@
 }
 
 @media (max-width: 1440px) {
-    html, body {height: auto; font-size: 16pt;}
+    html, body {height: auto; font-size: 1.2rem;}
     .main {margin-bottom: 1em;}
     body {padding: 1em; border: 0em;}
-    .footer {margin-top: 1em;}
-    .maincontent {max-width: unset;}
-    .nav-li {font-size: 16pt;}
+    .footer {margin-top: 1em; font-size: 1rem;}
+    .maincontent {max-width: unset; font-size: 1rem;}
+    .nav-li {font-size: 1rem;}
 }
 
 @media (min-width: 1441px) {
     html, body {height: 100%;}
     .main {margin-right: 2em;}
     body {padding: 6em; border: 1em solid #0b0b0b;}
-    .footer {margin-top: 2em;}
-    .maincontent {max-width: 600px; font-size: 12pt;}
-    .nav-li {font-size: 12pt;}
+    .footer {margin-top: 2em; font-size: 1rem;}
+    .maincontent {max-width: 600px; font-size: 1rem;}
+    .nav-li {font-size: 1rem;}
 }
 
 @media all and (min-width: 600px) {
