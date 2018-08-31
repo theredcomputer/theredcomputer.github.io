@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 1440px) {
-    html, body {height: auto; font-size: larger;}
+    html, body {height: auto; font-size: x-large;}
     .main {margin-bottom: 1em;}
     body {padding: 1em; border: 0em;}
     .footer {margin-top: 1em;}
