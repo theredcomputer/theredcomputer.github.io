@@ -41,12 +41,12 @@
 }
 
 @media (max-width: 1440px) {
-    html, body {height: auto; font-size: x-large;}
+    html, body {height: auto; font-size: 16pt;}
     .main {margin-bottom: 1em;}
     body {padding: 1em; border: 0em;}
     .footer {margin-top: 1em;}
     .maincontent {max-width: unset;}
-    .nav-lie {font-size: larger;}
+    .nav-li {font-size: 16pt;}
 }
 
 @media (min-width: 1441px) {
@@ -54,8 +54,8 @@
     .main {margin-right: 2em;}
     body {padding: 6em; border: 1em solid #0b0b0b;}
     .footer {margin-top: 2em;}
-    .maincontent {max-width: 600px; font-size: medium;}
-    .nav-li {font-size: medium;}
+    .maincontent {max-width: 600px; font-size: 12pt;}
+    .nav-li {font-size: 12pt;}
 }
 
 @media all and (min-width: 600px) {
@@ -95,6 +95,10 @@ a:hover {
 
 a:active {
     color: #f4f4f4;
+}
+
+.nav-ul {
+    margin: 0 0 0.4em 0;
 }
 
 .nav-li {
