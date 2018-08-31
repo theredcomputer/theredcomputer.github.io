@@ -41,19 +41,21 @@
 }
 
 @media (max-width: 1440px) {
-    html, body {height: auto;}
+    html, body {height: auto; font-size: larger;}
     .main {margin-bottom: 1em;}
     body {padding: 1em; border: 0em;}
     .footer {margin-top: 1em;}
     .maincontent {max-width: unset;}
+    .nav-lie {font-size: larger;}
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1441px) {
     html, body {height: 100%;}
     .main {margin-right: 2em;}
     body {padding: 6em; border: 1em solid #0b0b0b;}
     .footer {margin-top: 2em;}
-    .maincontent {max-width: 600px;}
+    .maincontent {max-width: 600px; font-size: medium;}
+    .nav-li {font-size: medium;}
 }
 
 @media all and (min-width: 600px) {
@@ -97,7 +99,6 @@ a:active {
 
 .nav-li {
     margin: 1em 0;
-    font-size: medium;
 } 
 
 .pub-heading {
