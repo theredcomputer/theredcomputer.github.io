@@ -42,7 +42,7 @@
 @media (max-width: 1440px) {
     html, body {height: auto;}
     .main {margin-bottom: 1em;}
-    h1 {font-size: 3rem}
+    h1 {font-size: 6vw}
     h3 {font-size: 2rem}
     body {padding: 1em; border: 0em;}
     .footer {margin-top: 1em; font-size: 1.5rem;}
