@@ -35,27 +35,31 @@
 
 .footer {
     padding: 1em 1em 0em 1em;
-    font-style: italic;
+    font-style: none;
     text-align: center;
 }
 
+/*
+  Small view
+*/
 @media (max-width: 1440px) {
-    html, body {height: auto;}
     .main {margin-bottom: 1em;}
-    h1 {font-size: 6vw;}
-    h3 {font-size: 3.708w;}
+    h1 {font-size: 5vw;}
+    h3 {font-size: 3vw;}
     body {padding: 1em; border: 0em;}
-    .footer {margin-top: 1em; font-size: 1.5rem;}
-    .maincontent {max-width: unset; font-size: 2.08vw;}
-    .nav-li {font-size: 1.5rem;}
+    .footer {margin-top: 1em; font-size: 2vw;}
+    .maincontent {max-width: unset; font-size: 2vw;}
+    .nav-li {font-size: calc(10px + 1vw);}
 }
 
+/*
+  Big view
+*/
 @media (min-width: 1441px) {
-    html, body {height: 100%;}
     .main {margin-right: 2em;}
     body {padding: 6em; border: 1em solid #0b0b0b;}
     .footer {margin-top: 2em; font-size: 1rem;}
-    .maincontent {max-width: 600px; font-size: 1rem;}
+    .maincontent {max-width: 40rem; font-size: 1.11rem;}
     .nav-li {font-size: 1rem;}
 }
 
@@ -70,10 +74,15 @@
     .footer {order: 4;}
 }
 
+html, body {
+    height: auto;
+}
+
 body {
     color: #d9b310;
     background: url("background.jpg") no-repeat center;
     background-size: cover;
+    min-height: 100vh;
 }
 
 .url:link {
