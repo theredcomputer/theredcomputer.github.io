@@ -48,7 +48,7 @@
     h3 {font-size: calc(10px + 3vw);}
     body {padding: 1em; border: 0em;}
     .footer {margin-top: 1em; font-size: calc(10px + 1vw);}
-    .maincontent {max-width: unset; font-size: calc(10px + 1.5vw); margin-top: 2em;}
+    .maincontent {max-width: unset; font-size: calc(12px + 1vw); margin-top: 2em;}
     .nav-li {font-size: calc(10px + 1.5vw);}
 }
 
