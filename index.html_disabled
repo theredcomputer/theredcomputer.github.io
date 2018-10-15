@@ -19,7 +19,7 @@
                 <h3>Homepage</h3>
                 <div class="maincontent">
                     <p>Stephen Eick is a graduate student in the School of Interactive Computing at the Georgia Institute of Technology. He is pursuing a PhD in Computer Science and a Graduate Certificate in Public Policy. </p>
-                    <p>Stephen's research is focused at the intersection of privacy and robotics. His advisor is <a target="_blank" href="https://www.cc.gatech.edu/people/annie-anton">[Annie Antón]</a>.</p>
+                    <p>Stephen's research is focused at the intersection of privacy, machine learning, and robotics. His advisor is <a target="_blank" href="https://www.cc.gatech.edu/people/annie-anton">[Annie Antón]</a>.</p>
                 </div>
             </article>
             <aside id="menu" class="aside nav-right flex-bg">
