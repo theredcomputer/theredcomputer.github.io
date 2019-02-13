@@ -1,4 +1,4 @@
-var element = '<ul class="list-unstyled nav-ul"><li class="nav-li"><a href="index.html">Home</a></li><li class="nav-li"><a href="research.html">Research</a></li><li class="nav-li"><a href="publications.html">Publications</a></li><li class="nav-li"><a href="resume.pdf">Resume</a></li><li class="nav-li"><a href="contact.html">Contact Me</a></li></ul>';
+var element = '<ul class="list-unstyled nav-ul"><li class="nav-li"><a href="index.html">Home</a></li><li class="nav-li"><a href="research.html">Research</a></li><li class="nav-li"><a href="publications.html">Publications</a></li><li class="nav-li"><a href="docs/resume.pdf">Resume</a></li><li class="nav-li"><a href="contact.html">Contact Me</a></li></ul>';
 
 var footer_text = '<p>"Truth is always exciting. Speak it, then. Life is dull without it." (Pearl S. Buck)</p><p>Website designed in 2018 by Stephen Eick.</p><p><a target="_blank" href="https://linkedin.com/in/stepheneick"><i class="fab fa-linkedin fa-lg"></i></a> </p>';
 
